@@ -17,6 +17,11 @@ function App() {
     <li>react</li>
   </ul>
   
+  const pobj={
+fname : "lakshitha",
+age:40
+
+  }
 
   return (
     <>
@@ -25,7 +30,7 @@ function App() {
      <p>Name : {name}</p>
      <p>Mark : {mark}</p>
      <p>Address : {address}</p>
-     <p>age : {age}</p>
+     <p>age : {pobj.age}</p>
      <p>FullName :{getFullName("purna","lakshitha","ekanayaka")}
      </p> 
      <p>{name} like to eat {fruit[1]}</p>
